@@ -27,7 +27,9 @@ def characters(c):
     return any(char in specialCharacters for char in c)
 
 #Must contain at least one number 0-9
-
+def numbers(n):
+    specialNumbers = "0123456789"
+    return any(num in specialNumbers for num in n)
 
 #Must contain at least one capital letter
 
