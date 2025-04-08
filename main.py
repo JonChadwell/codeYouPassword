@@ -16,7 +16,7 @@ Please enter a password that conforms to the above restrictions:"""
     print(incorrect_pass)
 
 #Create a password
-
+password = input("Please create a password meeting the proper criteria. ")
 
 #Password must contain 8-16 characters
 
