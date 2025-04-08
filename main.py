@@ -36,8 +36,8 @@ def upperCase(u):
     return any(char.isupper() for char in u)
 
 #Must start with a lower case letter
-def upperCase(u):
-    return any(char.isupper() for char in u)
+def lowerCase(l):
+    return any(char.islower() for char in l)
 
 #must not contain the phrase "pass"
 
@@ -49,3 +49,7 @@ def upperCase(u):
 
 
 #Running a check for all requirements
+if numbers(password) and characters(password) and upperCase(password) and lowerCase(password):
+    print("Success!")
+else:
+    incorrect()
