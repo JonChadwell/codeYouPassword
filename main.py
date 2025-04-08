@@ -22,7 +22,9 @@ password = input("Please create a password meeting the proper criteria. ")
 
 
 #Must contain one of the special characters %$#^&*!@()
-
+def characters(c):
+    specialCharacters = "%$#^&*!@()"
+    return any(char in specialCharacters for char in c)
 
 #Must contain at least one number 0-9
 
