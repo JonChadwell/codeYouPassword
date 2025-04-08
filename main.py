@@ -32,7 +32,8 @@ def numbers(n):
     return any(num in specialNumbers for num in n)
 
 #Must contain at least one capital letter
-
+def upperCase(u):
+    return any(char.isupper() for char in u)
 
 #Must start with a lower case letter
 
