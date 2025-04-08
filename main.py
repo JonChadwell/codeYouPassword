@@ -19,7 +19,8 @@ Please enter a password that conforms to the above restrictions:"""
 password = input("Please create a password meeting the proper criteria. ")
 
 #Password must contain 8-16 characters
-
+def length_check(p):
+    return 8 <= len(p) <= 16
 
 #Must contain one of the special characters %$#^&*!@()
 def characters(c):
