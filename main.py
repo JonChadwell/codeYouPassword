@@ -42,11 +42,12 @@ def lowerCase(l):
 
 #must not contain the phrase "pass"
 def no_pass(p):
-    return "pass" not in p.lower()
+    return "pass" not in p.lower
 
 
 #Must not contain the phrase "qwerty"
-
+def no_qwerty(p):
+    return "qwerty" not in p.lower() 
 
 #Must not contain the phrase "123"
 
