@@ -41,6 +41,8 @@ def lowerCase(l):
     return any(char.islower() for char in l)
 
 #must not contain the phrase "pass"
+def no_pass(p):
+    return "pass" not in p.lower()
 
 
 #Must not contain the phrase "qwerty"
