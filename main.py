@@ -36,7 +36,8 @@ def upperCase(u):
     return any(char.isupper() for char in u)
 
 #Must start with a lower case letter
-
+def upperCase(u):
+    return any(char.isupper() for char in u)
 
 #must not contain the phrase "pass"
 
