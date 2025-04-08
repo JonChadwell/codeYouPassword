@@ -50,7 +50,8 @@ def no_qwerty(p):
     return "qwerty" not in p.lower() 
 
 #Must not contain the phrase "123"
-
+def no_123(p):
+    return "123" not in p
 
 #Running a check for all requirements
 if numbers(password) and characters(password) and upperCase(password) and lowerCase(password):
