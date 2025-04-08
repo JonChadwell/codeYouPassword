@@ -42,7 +42,7 @@ def lowerCase(l):
 
 #must not contain the phrase "pass"
 def no_pass(p):
-    return "pass" not in p.lower
+    return "pass" not in p
 
 
 #Must not contain the phrase "qwerty"
@@ -54,7 +54,7 @@ def no_123(p):
     return "123" not in p
 
 #Running a check for all requirements
-if numbers(password) and characters(password) and upperCase(password) and lowerCase(password):
+if numbers(password) and characters(password) and upperCase(password) and lowerCase(password) and length_check(password) and no_qwerty(password) and no_123(password):
     print("Success!")
 else:
     incorrect()
